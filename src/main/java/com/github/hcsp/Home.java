@@ -9,7 +9,7 @@ public class Home {
     public static void main(String[] args) {
         createTwoCats();
 
-//        System.out.println("1: " + cat1 + ", 2:" + cat2);
+        System.out.println("1: " + cat1 + ", 2:" + cat2);
 
         cat1.name = "Jerry";
 
@@ -22,6 +22,6 @@ public class Home {
 
     public static void createTwoCats() {
         cat1 = new Cat("Tom");
-        cat2 = new Cat("Tom");
+        cat2 = cat1;
     }
 }
