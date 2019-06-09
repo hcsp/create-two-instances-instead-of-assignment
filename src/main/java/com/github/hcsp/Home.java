@@ -17,7 +17,7 @@ public class Home {
     }
 
     public static void createTwoCats() {
-        cat1 = new Cat("Tom");
-        cat2 = cat1;
+        cat1 = new Cat("Jerry");
+        cat2 = new Cat("Tom");
     }
 }
