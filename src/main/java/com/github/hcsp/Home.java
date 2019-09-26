@@ -18,11 +18,6 @@ public class Home {
 
     public static void createTwoCats() {
         cat1 = new Cat("Tom");
-//        System.out.println(cat1);
-//        cat2 = cat1;
-//        System.out.println(cat1 == cat2);
-        cat2 = new Cat("Tom");
-//        System.out.println(cat2);
-//        System.out.println(cat1 == cat2);
+        cat2 = cat1;
     }
 }
