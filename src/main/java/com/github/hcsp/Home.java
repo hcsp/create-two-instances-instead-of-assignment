@@ -18,6 +18,6 @@ public class Home {
 
     public static void createTwoCats() {
         cat1 = new Cat("Tom");
-        cat2 = new Cat(cat1.name);
+        cat2 = cat1;
     }
 }
