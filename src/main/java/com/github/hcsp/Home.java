@@ -15,10 +15,9 @@ public class Home {
         // 请修改createTwoCats()方法，使得程序输出"1: Cat(Tom), 2: Cat(Tom), cat1==cat2: false"
         System.out.println("1: " + cat1 + ", 2:" + cat2 + ", cat1==cat2: " + (cat1 == cat2));
     }
+
     public static void createTwoCats() {
         cat1 = new Cat("Tom");
-        cat2= new Cat("");//赋值为空
-        cat2.name="Tom";//重新给cat2 name赋值
-
+        cat2 = cat1;
     }
 }
