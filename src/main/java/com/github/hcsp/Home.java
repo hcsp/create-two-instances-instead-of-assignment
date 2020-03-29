@@ -13,12 +13,11 @@ public class Home {
         // cat1==cat2: false"
         // 我们希望创建两只猫，而不是一只猫的两个引用
         // 请修改createTwoCats()方法，使得程序输出"1: Cat(Tom), 2: Cat(Tom), cat1==cat2: false"
-        System.out.println("1: " + Home.cat1 + ", 2:" + cat2 + ", cat1==cat2: " + (Home.cat1 == cat2));
+        System.out.println("1: " + cat1 + ", 2:" + cat2 + ", cat1==cat2: " + (cat1 == cat2));
     }
 
     public static void createTwoCats() {
         cat1 = new Cat("Tom");
-        cat2 = new Cat("Tom");
-      //不把cat1=cat2.如果=创建了同一个对象的两个引用
+        cat2 = cat1;
     }
 }
