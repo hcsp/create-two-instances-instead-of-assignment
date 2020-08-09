@@ -2,6 +2,9 @@ package com.github.hcsp;
 
 import com.github.hcsp.pet.Cat;
 
+/**
+ * @author zink
+ */
 public class Home {
     public static Cat cat1;
     public static Cat cat2;
@@ -18,6 +21,6 @@ public class Home {
 
     public static void createTwoCats() {
         cat1 = new Cat("Tom");
-        cat2 = cat1;
+        cat2 = new Cat("Tom");
     }
 }
