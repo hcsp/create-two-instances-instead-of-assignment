@@ -18,7 +18,6 @@ public class Home {
 
     public static void createTwoCats() {
         cat1 = new Cat("Tom");
-        // 在内存空间中在开辟一份新的空间存储cat2
-        cat2 = new Cat("Tom");
+        cat2 = cat1;
     }
 }
